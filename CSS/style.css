@@ -9,7 +9,7 @@ body {
      text-align: center;
      font-family: 'Poppins', sans-serif;
      color: #222;
-     background-color: antiquewhite;
+     background-color: rgb(243, 235, 224);
    }
 
    img {
@@ -23,13 +23,17 @@ body {
 /*Header style*/
 
 .header{
-   
-    background-image: url(img/halfbk.jpg);
-    background-color: #A8358F;
+  background-image: url(img/trees.jpg);
+  background-color: #A8358F;
+  }
+
+.header{
+       
     text-align: right;
     padding: 20px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Nobile', sans-serif;
     color: #FEF2FE;
+    opacity: 0.8;
    
 }
 

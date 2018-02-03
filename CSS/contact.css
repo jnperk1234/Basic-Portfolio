@@ -22,7 +22,13 @@ p {
 	height: auto !important;
 	height: 500px;
 	float: left;
-	display: block;
+	margin-right: 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .page-wrap {
@@ -35,6 +41,7 @@ p {
 }
 
 #contact-area {
+	clear: both;
 	width: 600px;
 	margin-top: 25px;
 }
@@ -70,21 +77,17 @@ label {
 	font-size: 1.4em;
 }
 
-.clearfix{
-	overflow: auto;
-}
+
 
 .social {
-	float: right;
 	width: 660px;
 	background: white;
 	padding: 20px 50px 20px 50px;
 	margin: 20px auto;
 	min-height: 150px;
 	height: auto !important;
-	height: 500px
-	display: inline;
-	
+	height: 500px;
+		
 }
 
 

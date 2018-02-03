@@ -1,11 +1,11 @@
 div.gallery {
     border: 5px solid #78D6D2;
-    border-radius: 25.5%;
+   
 }
 
 div.gallery:hover {
     border: 5px solid #F695F2;
-    border-radius: 25.5%;
+   
 }
 
 div.gallery img {

@@ -83,6 +83,7 @@ label {
 	min-height: 150px;
 	height: auto !important;
 	height: 500px
+	display: inline;
 	
 }
 
